@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -50% 50%, 140% -30%; 
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.content img{
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border: 5px solid white;
+}
+
+.content h3{
+    text-align: center;
+    padding-top: 76px;
+}
+.content h3 span{
+    color: hsl(0, 0%, 59%);
+    margin-left: 18px;
+}
+
+.content p{
+    text-align: center;
+}
+
+.bottom-content{
+    display: grid;
+grid-auto-columns: 48px;
+grid-row: unset;
+grid-template-columns: auto auto auto;
+text-align: center;
+padding-top: 25px;
+border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.content{
+    margin-bottom: 15%;
+}
+
+.card{
+    padding-bottom: 30px;
+}
+
+hr{
+    border: 1px solid hsl(0, 0%, 59%);
+}
+
+h3,h4{
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+h3{
+    line-height: 38px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+   body{
+    background-position: 110% 70%, 0% -40%;
+   }
+  }
