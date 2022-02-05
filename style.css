@@ -33,7 +33,7 @@ body{
 
 .content h3{
     text-align: center;
-    padding-top: 76px;
+    padding-top: 56px;
 }
 .content h3 span{
     color: hsl(0, 0%, 59%);
@@ -46,12 +46,17 @@ body{
 
 .bottom-content{
     display: grid;
-grid-auto-columns: 48px;
-grid-row: unset;
-grid-template-columns: auto auto auto;
-text-align: center;
-padding-top: 25px;
-border-top: 1px solid hsl(0, 0%, 59%);
+    grid-auto-columns: 48px;
+    grid-row: unset;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-top: 13px;
+    border-top: 1px solid hsla(0, 0%, 58.8%, 0.2);
+}
+.bottom-content p{
+    
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 
 .content{
